@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sogerg Enterprise — Applications mobiles</title>
+  <meta name="description" content="Sogerg Enterprise développe des applications mobiles pour le bâtiment, le sport et les loisirs." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <a href="#" class="brand">Sogerg Enterprise</a>
+      <nav>
+        <a href="#apps">Applications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Des applications mobiles<br />simples et bien pensées</h1>
+      <p>Sogerg Enterprise conçoit des applications pour le bâtiment, le sport et les loisirs.</p>
+      <a class="btn btn-primary" href="#apps">Voir les applications</a>
+    </div>
+  </section>
+
+  <section class="apps" id="apps">
+    <div class="wrap">
+      <h2>Nos applications</h2>
+      <p class="section-sub">Ce qu'on a construit jusqu'ici</p>
+      <div class="app-grid" id="app-grid"></div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="wrap">
+      <span>&copy; 2026 Sogerg Enterprise</span>
+      <a href="mailto:sogerg.enterprise@gmail.com">sogerg.enterprise@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="apps.js"></script>
+  <script>
+    const grid = document.getElementById("app-grid");
+
+    function storeButton(label, url) {
+      if (url) {
+        return `<a class="btn btn-store enabled" href="${url}" target="_blank" rel="noopener">${label}</a>`;
+      }
+      return `<span class="btn btn-store">${label} — bientôt</span>`;
+    }
+
+    APPS.forEach((app) => {
+      const card = document.createElement("div");
+      card.className = "app-card";
+      card.innerHTML = `
+        <div class="app-head">
+          <img class="icon" src="${app.icon}" alt="${app.name}" />
+          <div>
+            <h3>${app.name}</h3>
+            <p class="tagline">${app.tagline}</p>
+          </div>
+        </div>
+        <p class="description">${app.description}</p>
+        <div class="store-row">
+          ${storeButton("App Store", app.links.ios)}
+          ${storeButton("Google Play", app.links.android)}
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  </script>
+
+</body>
+</html>
