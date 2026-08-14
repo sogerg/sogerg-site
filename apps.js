@@ -32,7 +32,7 @@ const APPS = [
       "Photographiez une étiquette pour identifier la bouteille et estimer sa valeur, son état de garde et sa fenêtre de dégustation.",
     icon: "assets/icons/wine.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/valeur-vin-identifier/id6796832297",
       android: null
     }
   }
