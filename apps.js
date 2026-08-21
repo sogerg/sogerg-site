@@ -21,7 +21,7 @@ const APPS = [
       "Chronométrage des reprises, analyse vidéo et suivi des parcours d'obstacles pour cavaliers et entraîneurs.",
     icon: "assets/icons/tempojump.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/id6789875302",
       android: null
     }
   },
