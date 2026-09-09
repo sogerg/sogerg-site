@@ -87,7 +87,7 @@ const APPS = [
       "Cours de l'or en direct, graphiques historiques et alertes de prix personnalisées.",
     icon: "assets/icons/goldchart.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/id6808310679",
       android: null
     }
   },
