@@ -1,0 +1,3 @@
+# Cache local de Wrangler, régénéré à chaque exécution
+.wrangler/
+node_modules/
