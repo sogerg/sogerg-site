@@ -1,16 +1,20 @@
 // Liste des applications à afficher sur le site.
 // Pour ajouter un lien de store une fois l'app publiée : renseigner ios / android ci-dessous.
 // Pour ajouter une nouvelle application : dupliquer un bloc et l'ajouter au tableau.
+// Mis à jour le 12/10/2026 : les 6 apps en vente, puis les 5 soumises ou prêtes (bouton « bientôt »).
+// Retirées : les apps refusées ou mises de côté, et Whiskey / Liquor, fusionnées dans Cave & Chai.
+// Liens Android : null tant que le compte Google Play n'est pas rétabli.
 
 const APPS = [
+  // ---------------------------------------------------------------- en vente
   {
-    name: "BétonPro",
-    tagline: "Calculateur de béton pour le chantier",
+    name: "Calcul Béton",
+    tagline: "Dosage, dalle et volumes de coulage",
     description:
-      "Dosages, volumes de coulage et carnet de chantier géolocalisé pour les professionnels du bâtiment.",
+      "Dosages, volumes de coulage, devis et carnet de chantier pour les professionnels du bâtiment.",
     icon: "assets/icons/beton.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/id6786003871",
       android: null
     }
   },
@@ -18,7 +22,7 @@ const APPS = [
     name: "TempoJump",
     tagline: "L'application des cavaliers",
     description:
-      "Chronométrage des reprises, analyse vidéo et suivi des parcours d'obstacles pour cavaliers et entraîneurs.",
+      "Foulées, contrats et suivi des parcours d'obstacles pour cavaliers et entraîneurs.",
     icon: "assets/icons/tempojump.png",
     links: {
       ios: "https://apps.apple.com/app/id6789875302",
@@ -26,65 +30,21 @@ const APPS = [
     }
   },
   {
-    name: "Wine Cellar Value",
-    tagline: "Identifiez et estimez votre cave à vin",
+    name: "Cave & Chai",
+    tagline: "Votre cave à vin, whisky et spiritueux",
     description:
-      "Photographiez une étiquette pour identifier la bouteille et estimer sa valeur, son état de garde et sa fenêtre de dégustation.",
-    icon: "assets/icons/wine.png",
+      "Photographiez une étiquette pour inventorier vos bouteilles, suivre leur valeur, leur état et le bon moment pour les ouvrir.",
+    icon: "assets/icons/cellar.png",
     links: {
-      ios: "https://apps.apple.com/app/valeur-vin-identifier/id6796832297",
+      ios: "https://apps.apple.com/app/id6796832297",
       android: null
     }
   },
   {
-    name: "Instrument Value",
-    tagline: "Identifiez la valeur de vos instruments",
+    name: "Graphique Cours Or & Argent",
+    tagline: "Le cours de l'or et de l'argent en direct",
     description:
-      "Identifiez n'importe quelle guitare ou basse : valeur honnête, état et recherche du numéro de série.",
-    icon: "assets/icons/instrument.png",
-    links: {
-      ios: null,
-      android: null
-    }
-  },
-  {
-    name: "Plant Doctor",
-    tagline: "Diagnostiquez vos plantes malades",
-    description:
-      "Diagnostiquez vos plantes par photo : maladie, parasites, carences et plan de traitement.",
-    icon: "assets/icons/plantdoctor.png",
-    links: {
-      ios: null,
-      android: null
-    }
-  },
-  {
-    name: "Comic Value",
-    tagline: "Identifiez et estimez vos comics",
-    description:
-      "Identifiez vos comics, repérez les numéros clés et obtenez une estimation de valeur instantanée.",
-    icon: "assets/icons/comic.png",
-    links: {
-      ios: null,
-      android: null
-    }
-  },
-  {
-    name: "Backyard Bird Identifier",
-    tagline: "Identifiez les oiseaux de votre jardin",
-    description:
-      "Identifiez oiseaux, œufs, nids et plumes — et sachez d'abord si l'espèce est légalement protégée.",
-    icon: "assets/icons/bird.png",
-    links: {
-      ios: null,
-      android: null
-    }
-  },
-  {
-    name: "Gold Price Chart Live",
-    tagline: "Suivez le cours de l'or en direct",
-    description:
-      "Cours de l'or en direct, graphiques historiques et alertes de prix personnalisées.",
+      "Graphiques en direct, alertes de prix et valeur de vos métaux précieux dans votre devise.",
     icon: "assets/icons/goldchart.png",
     links: {
       ios: "https://apps.apple.com/app/id6808310679",
@@ -92,58 +52,66 @@ const APPS = [
     }
   },
   {
-    name: "Whiskey Value",
-    tagline: "Identifiez et estimez vos whiskies",
+    name: "Checkout Proof",
+    tagline: "L'état des lieux, entrée et sortie",
     description:
-      "Identifiez n'importe quel whisky : valeur, statut d'allocation et vérification d'authenticité.",
-    icon: "assets/icons/whiskey.png",
+      "État des lieux pour location saisonnière, longue durée ou véhicule : photos datées, signatures et comparaison entrée / sortie en PDF.",
+    icon: "assets/icons/checkout.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/id6812844356",
       android: null
     }
   },
   {
-    name: "Perfume Value",
-    tagline: "Identifiez et estimez vos parfums",
+    name: "Valeur Guitare",
+    tagline: "La valeur de vos instruments",
     description:
-      "Identifiez vos parfums, vérifiez l'ère de la formule, repérez les contrefaçons et suivez la valeur de votre collection.",
-    icon: "assets/icons/perfume.png",
+      "Identifiez une guitare ou une basse : valeur honnête, état et recherche du numéro de série.",
+    icon: "assets/icons/instrument.png",
     links: {
-      ios: null,
+      ios: "https://apps.apple.com/app/id6808241717",
       android: null
     }
   },
+  // ---------------------------------------------------------------- bientôt (soumises ou prêtes)
   {
-    name: "Liquor Value",
-    tagline: "Identifiez et estimez vos spiritueux",
+    name: "Bill Calendar",
+    tagline: "Factures et abonnements, jour par jour",
     description:
-      "Identifiez rhum, tequila, gin et plus : valeur, authenticité et notes de dégustation.",
-    icon: "assets/icons/liquor.png",
-    links: {
-      ios: null,
-      android: null
-    }
+      "Le calendrier de vos échéances : loyer, énergie, assurances et abonnements, avec rappels et hausses de prix, sans compte ni banque.",
+    icon: "assets/icons/bill.png",
+    links: { ios: null, android: null }
   },
   {
-    name: "PlakéPro",
-    tagline: "Le calculateur placo pour les professionnels du BTP",
+    name: "Triathlon SeasonBook",
+    tagline: "Le carnet de saison du triathlète",
     description:
-      "Entraxe des montants, quantité de plaques de plâtre et isolation calculés selon les normes DTU, ASTM, CSA et DIN.",
-    icon: "assets/icons/plaquepro.png",
-    links: {
-      ios: null,
-      android: null
-    }
+      "Vos séances de nage, vélo et course, vos objectifs, vos courses et votre matériel, saison après saison.",
+    icon: "assets/icons/triathlon.png",
+    links: { ios: null, android: null }
   },
   {
-    name: "Gold Value & Price Calculator",
-    tagline: "Calculez la valeur de votre or",
+    name: "Apex Ballistic Calculator",
+    tagline: "Le calculateur balistique de précision",
     description:
-      "Cours de l'or en direct + votre poids et carat = valeur de fonte exacte, instantanément.",
-    icon: "assets/icons/gold.png",
-    links: {
-      ios: null,
-      android: null
-    }
+      "Trajectoire, dérive au vent et table de tir pour le tir sportif à longue distance.",
+    icon: "assets/icons/apex.png",
+    links: { ios: null, android: null }
+  },
+  {
+    name: "Rollwright",
+    tagline: "Les dés du jeu de rôle",
+    description:
+      "Formules de dés, lancers et probabilités pour vos parties de jeu de rôle.",
+    icon: "assets/icons/rollwright.png",
+    links: { ios: null, android: null }
+  },
+  {
+    name: "Fissures maison",
+    tagline: "Suivi des fissures et alerte CatNat",
+    description:
+      "Mesurez et suivez les fissures de votre maison, et préparez votre dossier de catastrophe naturelle sécheresse.",
+    icon: "assets/icons/fissures.png",
+    links: { ios: null, android: null }
   }
 ];
