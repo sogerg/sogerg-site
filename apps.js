@@ -71,5 +71,16 @@ const APPS = [
       ios: "https://apps.apple.com/app/id6808241717",
       android: null
     }
+  },
+  {
+    name: "Fissures maison",
+    tagline: "Suivi des fissures et CatNat sécheresse",
+    description:
+      "Relevés datés de vos fissures, statut de catastrophe naturelle de votre commune avec le délai de déclaration, et dossiers PDF pour la mairie, l'assureur et l'expert.",
+    icon: "assets/icons/fissures.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6821975864",
+      android: null
+    }
   }
 ];
