@@ -82,5 +82,16 @@ const APPS = [
       ios: "https://apps.apple.com/app/id6821975864",
       android: null
     }
+  },
+  {
+    name: "Crossday",
+    tagline: "Jours de télétravail des frontaliers",
+    description:
+      "Un geste par jour, et vous voyez les jours restants avant les seuils fiscal et social de votre paire de pays, chacun avec sa source et sa date. Relevé PDF et CSV pour l'employeur.",
+    icon: "assets/icons/crossday.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6829536909",
+      android: null
+    }
   }
 ];
