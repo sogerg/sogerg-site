@@ -115,5 +115,27 @@ const APPS = [
       ios: "https://apps.apple.com/app/id6835542452",
       android: null
     }
+  },
+  {
+    name: "Table Score",
+    tagline: "Le compteur de la table",
+    description:
+      "Tarot, Belote, Coinche, Yam's et tous vos jeux, calculés juste, sans pub et sans connexion.",
+    icon: "assets/icons/tablescore.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6824197989",
+      android: null
+    }
+  },
+  {
+    name: "Triathlon Race Log",
+    tagline: "Courses, chronos et records",
+    description:
+      "Saison finie ? Vos séances déjà enregistrées deviennent des pages de course, un compte-rendu et votre livre de saison. Sans compte, tout reste sur le téléphone.",
+    icon: "assets/icons/triathlon.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6819398567",
+      android: null
+    }
   }
 ];
