@@ -93,5 +93,27 @@ const APPS = [
       ios: "https://apps.apple.com/app/id6829536909",
       android: null
     }
+  },
+  {
+    name: "Pumio",
+    tagline: "Pompe à chaleur et climatisation",
+    description:
+      "Du relevé de chantier à l'attestation d'entretien : note de dimensionnement, mise en service signée, carnet F-Gas, rappels et exports CSV. Sans compte, hors ligne.",
+    icon: "assets/icons/pumio.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6833186978",
+      android: null
+    }
+  },
+  {
+    name: "Cavage",
+    tagline: "Truffes par arbre, par chien",
+    description:
+      "Touchez l'arbre où le chien marque, pesez la truffe, passez au suivant. Voyez quels arbres produisent, saison après saison. Le plan reste sur votre téléphone.",
+    icon: "assets/icons/cavage.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6835542452",
+      android: null
+    }
   }
 ];
