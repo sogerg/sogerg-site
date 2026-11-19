@@ -117,6 +117,17 @@ const APPS = [
     }
   },
   {
+    name: "Hide & Stitch",
+    tagline: "Le cuir, calculé avant la coupe",
+    description:
+      "Épaisseur, surface de peau, longueur de fil au point sellier, lanières : les chiffres avant de poser la lame, puis le carnet de chaque projet. Tout reste sur votre téléphone.",
+    icon: "assets/icons/hidestitch.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6836551666",
+      android: null
+    }
+  },
+  {
     name: "Table Score",
     tagline: "Le compteur de la table",
     description:
