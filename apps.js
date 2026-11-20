@@ -117,6 +117,17 @@ const APPS = [
     }
   },
   {
+    name: "Potlife",
+    tagline: "La résine époxy, du mélange au démoulage",
+    description:
+      "Volume du moule, dosage partie A et partie B au volume ou au poids, puis les rappels de chaque étape de cure jusqu'au démoulage. Le carnet de vos coulées reste sur votre téléphone.",
+    icon: "assets/icons/potlife.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6836982118",
+      android: null
+    }
+  },
+  {
     name: "Hide & Stitch",
     tagline: "Le cuir, calculé avant la coupe",
     description:
