@@ -117,6 +117,17 @@ const APPS = [
     }
   },
   {
+    name: "Colregs Trainer",
+    tagline: "Les feux de navigation, appris pour de bon",
+    description:
+      "Feux de nuit, marques de jour, signaux sonores, balisage IALA A et B et situations « qui doit s'écarter » : chaque carte revient au bon moment grâce à la répétition espacée, avec un examen blanc chronométré.",
+    icon: "assets/icons/colregs.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6837507147",
+      android: null
+    }
+  },
+  {
     name: "Potlife",
     tagline: "La résine époxy, du mélange au démoulage",
     description:
