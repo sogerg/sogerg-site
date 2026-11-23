@@ -117,6 +117,17 @@ const APPS = [
     }
   },
   {
+    name: "Brushline",
+    tagline: "Le débroussaillement obligatoire, sur le cadastre",
+    description:
+      "Tracez la zone à débroussailler autour de votre maison sur le plan cadastral, voyez les parts des voisins, l'échéance et le danger du jour, puis préparez lettres et dossier photo. Seul l'arrêté préfectoral ou municipal fait foi.",
+    icon: "assets/icons/brushline.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6837874389",
+      android: null
+    }
+  },
+  {
     name: "Colregs Trainer",
     tagline: "Les feux de navigation, appris pour de bon",
     description:
