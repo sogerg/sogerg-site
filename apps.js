@@ -117,6 +117,17 @@ const APPS = [
     }
   },
   {
+    name: "Next Volume",
+    tagline: "Le tome suivant de vos séries",
+    description:
+      "Next Volume estime quand le prochain tome de chacune de vos séries devrait sortir, d'après le rythme des tomes que vous avez déjà. Mangas, BD et comics sur une seule étagère, avec « Je l'ai déjà ? » en boutique pour éviter les doublons.",
+    icon: "assets/icons/nextvolume.png",
+    links: {
+      ios: "https://apps.apple.com/app/id6838489812",
+      android: null
+    }
+  },
+  {
     name: "Brushline",
     tagline: "Le débroussaillement obligatoire, sur le cadastre",
     description:
